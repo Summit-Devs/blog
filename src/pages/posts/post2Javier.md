@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+# layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Buenas prácticas en Github'
 pubDate: 2022-05-07
 description: 'La importancia de las buenas practicas en Github'
