@@ -1,5 +1,12 @@
 ---
-
+title: 'Historia de Linux'
+date: '2024-05-07'
+description: 'Explora la evolución de Linux, uno de los sistemas operativos de código abierto más influyentes.'
+author: 'Ceci_Jhoana'
+image:
+    url: 'https://docs.astro.build/assets/full-logo-light.png'
+    alt: 'El logotipo completo de Astro.'
+tags: ["astro", "bloguear", "aprender en público"]
 ---
 # Historia de Linux
 
