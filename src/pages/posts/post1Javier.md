@@ -1,5 +1,5 @@
 ---
-#layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../layouts/MarkdownPostLayout.astro
 title: Historia de Github
 author: 'Javier Gustavo Corrales Delgadillo'
 description: "Breve historia de Github"
