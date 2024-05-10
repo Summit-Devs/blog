@@ -42,5 +42,64 @@ Bienvenidos al repositorio del proyecto de blog de Summit Devs. Este proyecto es
 ## Flujos de Trabajo
 ## Buenas Prácticas en Git
 
+Trabajar con Git en un proyecto colaborativo implica seguir ciertas buenas prácticas para mantener el repositorio organizado y facilitar la colaboración entre los miembros del equipo.
+
+**1. Nombres descriptivos y consistentes para las ramas:**
+
+Utilizar nombres de ramas que reflejen claramente el propósito de los cambios es importnte.
+
+Ejemplo: <pre>**feature/nombre-del-feature**
+feature/about
+feature/home
+feature/oliver-posts
+</pre>
+**2. Mensajes de commit claros y concisos:**
+
+ Cada commit debe tener un mensaje que explique claramente qué cambios se han realizado y por qué. Los mensajes de commit deben comenzar con una línea resumen breve (idealmente menos de 50 caracteres), seguida de una descripción más detallada si es necesario. Esto facilita la revisión de la historia del proyecto y la búsqueda de cambios específicos.
+
+Ejemplo:<pre>
+ * Commit Inicial, iniciando proyecto con astro
+ * Add: carpeta img y change[about]:En la introduccion
+ * fix[about]: Resolviendo error de la dirección de la imagen
+ * Change[README]:Add introduccion, herramientas utilizadas
+ * fix[posts]: Quitando comentarios para usar el post layout
+ </pre>
+
+**3. Integración frecuente de cambios:**
+
+ Es importante integrar tus cambios regularmente con la rama principal o de desarrollo para evitar conflictos masivos y difíciles de resolver. La integración continua también permite que el equipo detecte problemas temprano y asegure que las características se integren de manera efectiva y cohesiva en el producto final.
+
+**4. Uso de pull requests y merges planificados:**
+
+ Utiliza pull requests para fusionar cambios en las ramas principales. Esto permite discutir los cambios propuestos en un contexto claramente definido y realizar modificaciones antes de que los cambios sean parte de la rama principal. Además, es recomendable que las fusiones sean realizadas después de que al menos una o más personas revisen y aprueben los cambios.
+
+ ### ¿Qué es .gitignore?
+
+ El archivo **.gitignore** es una lista que le dice a Git cuáles archivos del proyecto no debe guardar en el historial de versiones. Esto es útil para mantener fuera del repositorio archivos que no necesitas compartir, como configuraciones personales, contraseñas o archivos temporales que tu computadora crea automáticamente. Al usar .gitignore, puedes ayudar a que tu proyecto sea más limpio y seguro, asegurándote de que solo los archivos importantes sean rastreados y compartidos con otros.
+
+### ¿Cómo crear y configurar un archivo .gitignore
+ * **Crear el archivo .gitignore**
+ * **Especificar patrones de archivos para ignorar**
+ * **Guardar y cerrar el archivo:**
+
+    Una vez que hayas terminado de añadir las reglas, guarda y cierra el archivo.
+* **Añadir .gitignore al repositorio:**
+
+    Es importante que el archivo .gitignore mismo sea parte del repositorio, para que las mismas reglas se apliquen en todos los entornos de trabajo. Añádelo a tu repositorio con:
+    <pre>git add .gitignore
+git commit -m "Add .gitignore"
+git push</pre>
+
+### Implementación de la Gestión de Versiones Semántica (SemVer) en un Proyecto Git con Astro
+**Cómo etiquetar versiones en Git:**
+* Asegúrarse de que todos los cambios estén confirmados y que el repositorio esté limpio.
+* Utilizar el comando de Git para crear una etiqueta:<pre> git tag -a v1.0.0 -m "Release version 1.0.0"
+</pre>
+*Aquí, v1.0.0 es la versión que estás publicando y el mensaje después de -m debe ser descriptivo de los cambios realizados.*
+* Empujar la etiqueta a tu repositorio remoto:
+  <pre>git push origin v1.0.0</pre>
+
+Al implementar SemVer junto con buenas prácticas de control de versiones y despliegue continuo, se puede mejorar significativamente la gestión y la predictibilidad de los lanzamientos en el proyecto de blog Astro, asegurandonos que las actualizaciones sean siempre claras y controladas.
+
 ## Deshacer Cambios
 ## Truquitos Pros en Git
