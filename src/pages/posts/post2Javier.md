@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Buenas prácticas en Github'
-pubDate: 2022-05-07
+pubDate: 2024-05-09
 description: 'La importancia de las buenas practicas en Github'
 author: 'Javier Gustavo Corrales Delgadillo'
 image:
