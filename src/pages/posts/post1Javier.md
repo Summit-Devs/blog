@@ -6,7 +6,7 @@ description: "Breve historia de Github"
 image:
   url: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png"
   alt: "Github"
-pubDate: 2022-05-07
+pubDate: 2024-05-09
 tags: ["Github", "Desarrollo", "Software", "Proyectos"]
 ---
 **La Fundación de GitHub**
