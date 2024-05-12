@@ -15,4 +15,4 @@
   ### Miguel (revisión por Cecilia)
 ## Git hooks o Git alias
 
-  Se hizo de un hook que se ejecutaba como pre-commit para ejecutar linters...
+  Se uso `simple git hooks` y `bumpp` para el manejo de hooks, usamos un hook precommit para ejecutar eslint y solucionar errores con el linter, con bumpp nos encargamos del lanzamiento de versiones.
