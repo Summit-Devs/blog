@@ -1,6 +1,7 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Historia de Linux'
-date: '2024-05-07'
+pubDate: '2024-05-07'
 description: 'Explora la evolución de Linux, uno de los sistemas operativos de código abierto más influyentes.'
 author: 'Ceci_Jhoana'
 image:

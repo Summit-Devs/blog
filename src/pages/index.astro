@@ -1,45 +1,13 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { Image } from 'astro:assets'
+import Git from '../assets/git.png'
 const pageTitle = "Home";
 ---
-<style>
-    html {
-        background-color: #94e0f3;
-        width: auto;
-    }
-    body {
-        width: 800px;
-        margin: 0 auto;
-        background-color: #ffffff;
-        padding: 0px 20px 20px 20px;
-        border: 5px solid black;
-    }
-    h1 { 
-    margin: 0;
-    padding: 20px 0;
-    color: #b70000;
-    text-shadow: 2px 2px 1px rgb(0, 0, 0);
-    text-align: center;
-    }
-    h3{
-        text-align: justify;
-        font-style: italic;
-    }
-    p{
-        text-align: justify; 
-        line-height: 1.5;
-    }
-    
-    img {
-        display: block;
-        margin: 0 auto;
-    }
-</style>
-
 <BaseLayout >
         <h1>Bienvenido/a al Blog de SUMMIT DEVS</h1>
 
-        <img class="imagen" src="/src/assets/GitHub.png" alt="Descripción de la imagen">
+        <Image src={Git} alt="Descripción de la imagen" width="500" />
 
         <h2>¡Aprende a Dominar el Control de Versiones y la Colaboración en Proyectos!</h2>
         <p>En nuestro blog, te ofrecemos una guía completa para aprender a utilizar Git y GitHub de manera efectiva. 
