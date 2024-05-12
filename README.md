@@ -4,6 +4,8 @@
 |-------------------|-------------------|
 | **Workflow:**     | **Git Flow**      |
 
+[https://scesi-git-blog.netlify.app/team/](https://scesi-git-blog.netlify.app/team/)
+
 ## Bitacora del Proyecto
   Desarrollamos un blog con [Astro](astro.build) y decidimos usar Git Flow como flujo de trabajo por su facilidad para comprender el flujo de las ramas y la protección que existe a la rama main para evitar llevar errores a producción.
   No se tuvieron problemas mayores, todo el equipo trabajo bien.
