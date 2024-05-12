@@ -1,0 +1,98 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro"
+const pageTitle = "Equipo"
+---
+<style>
+     body {
+    background-color: #e4b793; /* Cambia el color de fondo según tus preferencias */
+    }
+    .titulo {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+    }
+    .perfil {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .perfil img {
+      width: 150px;
+      height: 150px;
+      margin-right: 20px;
+      border-radius: 50%; 
+    }
+    
+    .perfil h2 {
+      margin-top: 0;
+    }
+    
+    .redes-sociales a {
+      margin-right: 10px;
+    }
+  </style>
+
+
+ 
+<BaseLayout pageTitle={pageTitle}>
+    <h1 class="titulo">Equipo Organización</h1>
+
+
+      <main>
+        <section>
+          <div class="perfil">
+            <img src="src/img/miguel.png" alt="Representación de Miguel" />
+            <h2>Miguel Benjamin Zubieta Rios </h2>
+            <p>Carrera: Ingeniería en Informática</p>
+            <p>Área de especialización : Por definir</p>
+            <div class="redes-sociales">
+              <a href="https://github.com/dotM87">GitHub</a>
+              <a href="https://www.linkedin.com/in/dotM87">Linkedin</a>
+             
+            </div>
+          </div>
+        </section>
+
+        <section>
+            <div class="perfil">
+              <img src="src/img/ceci.png" alt="Foto de Cecilia" />
+              <h2>Cecilia Jhoana Vergara Zeballos</h2>
+              <p>Carrera: Ingeniería en Sistemas</p>
+              <p>Área de especialización : Inteligencia Artificial</p>
+              <div class="redes-sociales">
+                <a href="https://github.com/CeciJhoana">GitHub</a>
+                
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="perfil">
+              <img src="src/img/astroboy.png" alt="Representación de Javier" />
+              <h2>Javier Gustavo Corrales Delgadillo</h2>
+              <p>Carrera: Ingeniería en Informática</p>
+              <p>Área de especialización : Por definir</p>
+              <div class="redes-sociales">
+                <a href="https://github.com/javiergcd">GitHub</a>
+               
+            
+              </div>
+            </div>
+          </section>
+        
+          <section>
+            <div class="perfil">
+              <img src="src/img/danian.png" alt="Representación de Oliver" />
+              <h2>Oliver Bohórquez</h2>
+              <p>Carrera: Ingeniería en Sistemas</p>
+              <p>Área de especialización : Por definir</p>
+              <div class="redes-sociales">
+                <a href="https://github.com/Oliverbohorquez">GitHub</a>
+              
+              </div>
+            </div>
+          </section>
+      </main>
+ </BaseLayout>    
+
+
