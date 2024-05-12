@@ -10,6 +10,7 @@
   Tampoco hubieron conflictos pero si se realizo un revert, lo realizo Miguel que junto dos features en un sola rama por error al tratar de hacer merge.
 
 ## Buenas y malas practicas
+En general todo el equipo uso buenas practicas, no hubo ningun problema entre los que desarrollamos el trabajo, entre las buenas practicas esta el uso de un buen flujo de trabajo, commits con buena redacción, uso de pull requests para integrar los cambios, uso de hooks, etc.
   ### Cecilia (revisión por Javier)
   ### Javier (revisión por Miguel)
   ### Miguel (revisión por Cecilia)
