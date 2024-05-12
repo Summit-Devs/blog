@@ -9,9 +9,6 @@ image:
     alt: 'Tux, la mascota de Linux.'
 tags: ["linux", "historia", "tecnología"]
 ---
-# Historia de Linux
-
-Publicado el: 2024-05-07
 
 ¡Bienvenido a mi blog! En esta entrada, exploraremos la historia y el desarrollo de Linux, uno de los sistemas operativos más influyentes y ampliamente utilizados que es de código abierto.
 
