@@ -1,7 +1,20 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro"
+import { Image } from 'astro:assets'
+import Equipo from "../assets/equipo.png"
 const pageTitle = "About"
 ---
+<style>
+	.intro-section {
+		margin-top: 2rem;
+	}
+	.img {
+		align-items: center;
+	}
+	.goals-section {
+		margin-top: 2rem;
+	}
+</style>
 <BaseLayout pageTitle={pageTitle}>
 	<h1>Summit Devs</h1>
 	<div class="intro-section">
@@ -15,7 +28,7 @@ const pageTitle = "About"
 			y el uso de herramientas modernas de software.
 		</p>
 		
-		<img src="src/img/equipo.png" alt="Imagen representativa de Summit Devs">
+		<Image src={Equipo} alt="Imagen representativa de Summit Devs" class="img"/>
 
 	  </div>
 	  <div class="goals-section">

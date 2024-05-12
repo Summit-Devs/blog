@@ -1,16 +1,40 @@
 ---
 
 ---
-
+<style>
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-top: 1px solid #e0e0e0;
+  }
+  footer a {
+    margin-right: 1rem;
+  }
+  footer a:last-child {
+    margin-right: 0;
+  }
+  footer div:last-child {
+    display: flex;
+    align-items: center;
+  }
+  footer div:last-child a {
+    margin-right: 0.5rem;
+  }
+  footer div:last-child span {
+    margin-right: 0.5rem;
+  }
+</style>
 <footer>
-  <div>
-    <a href="https://github.com/Summit-Devs/blog">Github Repo</a>
-    <a href="/team">Team</a>
-    <a href="mailto:mbenjaminzr@gmail.com">Contact</a>
-  </div>
   <div>
     <span>Build with </span>
     <a href="https://astro.build/">Astro</a>
     <>& ☕</>
   </div>
+  <div>
+    <a href="https://github.com/Summit-Devs/blog">Github Repo</a>
+    <a href="/team">Team</a>
+    <a href="mailto:mbenjaminzr@gmail.com">Contact</a>
+  </div>
+  
 </footer>
