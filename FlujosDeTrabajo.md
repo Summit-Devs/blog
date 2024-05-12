@@ -19,3 +19,9 @@ Una vez que se haya subido los cambios al repositorio remoto se procede a crear 
 ![creacion de PR](/src/img/creacion%20PR.png)
 
 
+## Ejercicio 3
+Cuando se presenta un conflicto durante una fusión de ramas en el proyecto como primer paso se debe identificar dicho conflicto, al ingresar los comandos para fusionar ramas nos saltara un error, indicando el conflicto. Se debe modificar o eliminar el archivo para poder resolver el conflicto. Al corregir los errores se debe ingresar el comando de **git add** Dicho comando guardara los cambios y los archivos pasaran al área de stagging. Se debe completar el cambio con un commit describiendo con un comentario la corrección de los errores de la fusión.
+
+Se finaliza la fusión con el comando de **git merge**, en caso de que no ocurra ningún error o existiera algún conflicto en la fusión de ramas, el proceso se completara de manera correcta. Como último paso se recomienda realizar pruebas adicionales para asegurar que la fusión no presente ningún problema en el futuro o que se haya introducido algún error.
+
+En caso de que se fusione a otra rama que no sea el main, se debe realizar un paso extra el cual se debe fusionar desde la rama main la rama que va a fusionarse utilizando el comando de **git merge**.
